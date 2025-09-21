@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    float a,area,perimeter;
+    printf("enter the value of a:");
+    scanf("%f",&a);
+    area=(a*a);
+    perimeter=(4*a);
+    printf("%f Area is",area);
+    printf("%f Perimeter is",perimeter);
+    return 0;
+    
+}
